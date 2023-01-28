@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testNG02.Example02">
+        <methods>
+          <include name="java"/>
+        </methods>
+      </class> <!-- testNG02.Example02 -->
+      <class name="testNG02.Example03">
+        <methods>
+          <include name="bhosdiWala"/>
+        </methods>
+      </class> <!-- testNG02.Example03 -->
+      <class name="testNG02.Example01">
+        <methods>
+          <include name="sql"/>
+        </methods>
+      </class> <!-- testNG02.Example01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
